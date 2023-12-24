@@ -46,7 +46,7 @@ class Flames extends React.Component {
 
     const addToDatabase =  async () => {
       
-      await axios.post("http://192.168.246.57:8087",{personOne:personOne , personTwo:personTwo})
+      await axios.post("http://localhost:8087",{personOne:personOne , personTwo:personTwo})
                   .then(response => console.log(response.data))
                   .catch(err => console.error(err))
     }

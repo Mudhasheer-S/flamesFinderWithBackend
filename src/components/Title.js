@@ -12,7 +12,7 @@ const Title = props => {
   return (
     <PageTitle>
       <h2>
-        F.L.A.M.E.S <span role="img">🔥</span>
+        F.L.A.M.E.S
       </h2>
       <p>
         A match making game 90s kids use to play. But this time we added some
